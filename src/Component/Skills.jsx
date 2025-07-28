@@ -1,0 +1,9 @@
+import React from 'react'
+
+function Skills() {
+  return (
+    <div id='skills' className='text-yellow-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sed praesentium facere. Consequuntur autem eos laboriosam, expedita magni iste deleniti voluptatibus maiores debitis enim exercitationem doloribus, blanditiis a praesentium sequi odio eaque voluptas voluptates dolorem alias, sit consectetur id iure voluptate! Omnis similique eius perspiciatis, a iste, architecto earum maiores ipsa beatae accusamus, blanditiis aperiam optio eum quo consectetur voluptatibus. Et ducimus vitae debitis vero veniam deleniti odio provident odit eum cumque repellat aliquam, consequatur a adipisci ad assumenda omnis qui quod facere tenetur iusto alias veritatis! Sint, eum soluta, quibusdam deleniti nulla nobis officia quod debitis magnam optio quasi odit, explicabo libero est placeat ducimus illo iure culpa? Et veniam aliquid eius minima aliquam quasi aut ratione quas! Provident nihil, repellendus officia illum amet doloribus quidem ab numquam delectus nisi consequuntur, necessitatibus obcaecati consequatur ea voluptatibus dolor, tempore aliquam eligendi? Aspernatur accusantium ipsum voluptas quas, explicabo commodi quo et unde autem deleniti hic amet, tempore repellendus. Dolorum esse exercitationem cupiditate aspernatur corrupti a debitis, illo eius nam consequatur dicta sapiente repellat perferendis minus ullam molestias, eaque, natus ratione nihil saepe quia ex itaque. Numquam odio dignissimos, dolor nisi est doloremque sed vitae corrupti laboriosam rerum aspernatur voluptas ipsa inventore?</div>
+  )
+}
+
+export default Skills
