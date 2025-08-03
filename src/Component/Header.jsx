@@ -1,33 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import { Menu, X } from 'lucide-react';
+
 
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  //dark mode
-  const [light , setligt ]= useState("black")
-
-  const outlight = ()=>{
-    setligt(light==="black"  ? "white":"black")
-  }
-  const darkset = (light==="black" ? "White" : "Dark")
-
-  
-  
-
-  // const navLinks = ['Home', 'About me', 'Contuct '];
 
 
   return (
     <>
-    <body style={{backgroundColor:light, color:"black"}}>
 
-    </body>
-    <header className="bg-[#002228] w-full text-white fixed top-0 left-0 z-50 shadow-md">
-      <div className="max-w-7xl mx-auto px-5 py-4 flex justify-between items-center">
+
+   
+    <header className="bg-[#002228] z-99 w-full text-white fixed top-0 left-0 shadow-md">
+      <div className="max-w-7xl mx-auto px-8 md:px-20 flex justify-between   items-center">
         {/* Logo */}
-        <div>
-          <img src="mylogo.png" alt="Logo" className="h-10" />
+        <div className='flex items-center '>
+          <img src="mylogo.png" alt="Logo" className="h-20 w-20" />
+            SH Programmer
         </div>
 
 
@@ -44,14 +34,7 @@ function Header() {
 
 
         {/* Buttons */}
-        <div className="hidden md:flex gap-3">
-          <button className="bg-[#0FF1F6] text-black rounded-full px-4 py-1 hover:bg-[#62b5b5] transition-all">
-            Sign in
-          </button>
-          <button onClick={outlight} className="border border-white rounded-full px-4 py-1 hover:bg-[#62b5b5] transition-all">
-          {darkset}
-          </button>
-        </div>
+        
 
 
         {/* Mobile Menu Icon */}
@@ -71,18 +54,19 @@ function Header() {
          <a href="#about">About me</a>
          <a href="#contruct">Contruct me</a>
          <a href="#skills">Skills</a>
+      
 
-
-            <button onClick={outlight} className="bg-[#0FF1F6] text-black rounded-full px-4 py-1 hover:bg-[#62b5b5] transition-all">
-              {darkset}
-            </button>
-            <button className="border border-white rounded-full px-4 py-1 hover:bg-[#62b5b5] transition-all">
-              Contact Us
-            </button>
+            
+        
           </nav>
         </div>
       )}
+
+      
     </header>
+
+
+
     </>
   );
 }

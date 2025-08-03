@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Contruct() {
+  const [massage,setmassage] = useState(false);
+
+
   return (
-    <div id='contruct' className='text-green-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam optio nemo expedita repudiandae iure voluptatibus accusantium quia debitis illo quasi commodi alias consequuntur minima nisi necessitatibus asperiores, voluptate minus aspernatur ullam maxime iste! Officia numquam sunt itaque fugiat, error porro, dignissimos vitae architecto dolorem aspernatur adipisci dolor ut quis perferendis, praesentium explicabo laborum? Fugit earum eveniet sit quo, ut commodi assumenda, unde odit cupiditate possimus blanditiis ipsum est reprehenderit provident neque repudiandae voluptatem incidunt modi perspiciatis consectetur rerum nemo officia? Nam eligendi ea quibusdam adipisci corrupti commodi, odit exercitationem labore minima error facere cum, impedit dolorum dicta quo? Cum?</div>
+ <div className='text-white'>
+ <section className='w-[80%] mx-auto'>
+<div className='flex justify-center items-center'>
+    <button className='bg-blue-400 p-3 rounded-full text-center my-4 text-black font-semibold transition-all duration-300 ' onClick={()=>setmassage(!massage)}>{massage ? "Learn end^"  : "Learn More About Me"}</button>
+</div>
+{massage && (
+  <p className=''> why you create a website by me,,, I Know how to make a beautifull website , I know how to add any functual compunent in website , and I know how to build a profetional website, </p>
+)}
+ </section>
+ </div>
   )
 }
 
