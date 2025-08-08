@@ -10,7 +10,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function Footer() {
   return (
     <>
-    <section className='bg-black w-full text-white  mt-10'>
+    <section id='footer' className='bg-black w-full text-white  mt-10'>
       <div className='w-[80%] mx-auto gap-y-8 flex-col md:flex-row flex justify-around  py-6'>
           <div> 
             <img className='w-[100px] rounded-full' src="mylogo.png" alt="" />

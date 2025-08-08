@@ -26,7 +26,7 @@ function Header() {
 
          <a href="#home">Home</a>
          <a href="#about">About me</a>
-         <a href="#contruct">Contruct me</a>
+         <a href="#footer">Contruct me</a>
          <a href="#skills">Skills</a>
          
         
@@ -52,7 +52,7 @@ function Header() {
           <nav className="flex flex-col gap-4 text-center font-medium">
          <a onClick={()=>setMenuOpen(false)} href="#home">Home</a>
          <a onClick={()=>setMenuOpen(false)} href="#about">About me</a>
-         <a onClick={()=>setMenuOpen(false)} href="#contruct">Contruct me</a>
+         <a onClick={()=>setMenuOpen(false)} href="#footer">Contruct me</a>
          <a onClick={()=>setMenuOpen(false)} href="#skills">Skills</a>
       
 
