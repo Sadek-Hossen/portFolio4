@@ -9,11 +9,13 @@ import Logo from './Component/Logo'
 import Review from './Component/Review'
 import Footer from './Component/Footer'
 import ProjectCrasol from './Component/ProjectCrasol'
+
 function App() {
 
   return (
     <>
       <div className="scroll-smooth">
+     
      <Header />
      <Hero />
      <Logo />
@@ -23,6 +25,9 @@ function App() {
      <Skills />
    
      <Review />
+  
+
+     
      <Footer />
      </div>
 
