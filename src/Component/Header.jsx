@@ -12,7 +12,7 @@ function Header() {
 
 
    
-    <header className="bg-[#002228] z-99 w-full text-white fixed top-0 left-0 shadow-md">
+    <header className="bg-[#002228] z-50 w-full text-white  top-0 left-0 shadow-md">
       <div className="max-w-7xl mx-auto px-8 md:px-20 flex justify-between   items-center">
         {/* Logo */}
         <div className='flex items-center '>
@@ -45,11 +45,10 @@ function Header() {
         </div>
       </div>
 
-
       {/* Mobile Menu Dropdown */}
       {menuOpen && (
         <div className="md:hidden bg-[#002228] px-5 pb-4">
-          <nav className="flex flex-col gap-4 text-center font-medium">
+         <nav className="flex flex-col gap-4 text-center font-medium">
          <a onClick={()=>setMenuOpen(false)} href="#home">Home</a>
          <a onClick={()=>setMenuOpen(false)} href="#about">About me</a>
          <a onClick={()=>setMenuOpen(false)} href="#footer">Contruct me</a>

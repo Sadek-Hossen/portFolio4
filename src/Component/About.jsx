@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <>
-    <div id='about' className=' bg-transparent w-[80%] md:flex mx-auto justify-around gap-10 '>
+    <div id='about' className=' scroll-mt-24  bg-transparent w-[80%] md:flex mx-auto justify-around gap-10 '>
       
          
            <div  className='flex justify-center items-center'>

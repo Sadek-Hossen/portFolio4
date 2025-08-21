@@ -56,7 +56,7 @@ const nextprevius = () => {
   const {img,hadign,clyient,link} = slideInpo [currenIndex]
   return (
   <>
-  <div id='skills' className='md:flex justify-between  items-center w-[80%]  mx-auto gap-4 my-7'>
+  <div id='skills' className=' scroll-mt-24 md:flex justify-between  items-center w-[80%]  mx-auto gap-4 my-7'>
 
     <div className='flex flex-col bg-gray-500 rounded-2xl mb-3 h-[600px] px-7 md:w-1/2 '>
         <h1  className='text-center font-bold mx-auto py-3 text-3xl font-sans'>My Skills</h1>

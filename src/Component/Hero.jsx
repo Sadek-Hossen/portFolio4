@@ -25,7 +25,7 @@ function Hero() {
   const { img } = imgInfo[CurrentIndex];
 
   return (
-    <section id="home" className="mb-15 ">
+    <section id="home" className="mb-15 scroll-mt-24  ">
       <div className=" md:flex justify-around items-center gap-6 md:px-10 mt-20  mx-auto w-[95%] md:w-[90%]">
         <div className="bg-[url(proBg.png)] bg-center py-12 rounded-full mx-auto  md:w-1/2">
           <div className="flex pt-10 justify-arround items-center ">
