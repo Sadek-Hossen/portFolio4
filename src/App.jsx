@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <div className="scroll-smooth">
+      <div className="scroll-smooth ">
         <div data-aos="fade-up"><Header /></div>
         <div data-aos="fade-up"><Hero /></div>
         <div data-aos="fade-up"><Logo /></div>

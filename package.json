@@ -14,6 +14,8 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.2.0",
     "@mui/material": "^7.2.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.9.1",
     "@visx/clip-path": "^3.12.0",
     "@visx/delaunay": "^3.12.0",
     "@visx/event": "^3.12.0",
@@ -25,7 +27,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-fast-marquee": "^1.6.5",
-    "react-router-dom": "^7.7.1",
+    "react-router-dom": "^7.8.2",
     "react-scroll": "^1.9.3",
     "react-type-animation": "^3.2.0",
     "react-typed": "^2.0.12"
